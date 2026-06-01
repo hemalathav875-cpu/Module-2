@@ -1,4 +1,4 @@
-~~~
+
 MODULE 2
 
 Built-in Functions -Binary Conversion Using Built-in Functions in Python
@@ -10,7 +10,9 @@ To write a Python program to convert the number 16 into its binary representatio
 ##Algorithm:
 
 Assign the value 16 to a variable a.
+
 Use the built-in bin() function to convert the number to binary.
+
 Print the result.
 
 ##Program
@@ -39,9 +41,13 @@ To write a Python program that defines a function which accepts two values and r
 ##Algorithm
 
 Define a function called result that takes two arguments a and b.
+
 Inside the function, compute the modulo using a % b.
+
 Print the result of the modulo operation.
+
 Get two integer inputs from the user.
+
 Call the result function with the user-provided values.
 
 ##Program
@@ -69,7 +75,9 @@ To write a Python program that defines a lambda function which takes two argumen
 ##Algorithm
 
 Get two integer inputs from the user.
+
 Use a lambda function to define a function f that returns a + b.
+
 Call the function with the user inputs and print the result.
 
 
@@ -99,13 +107,21 @@ To write a Python program that generates Pascal's Triangle using numbers. The nu
 ##Algorithm
 
 Start the program.
+
 Input the number of rows from the user.
+
 Loop from 0 to the number of rows.
+
 For each row:
+
 Print appropriate spaces to shape the triangle.
+
 Compute values using the formula:
+
 [ C(n, k) = \frac{n!}{k!(n-k)!} ]
+
 Print all rows of Pascal’s Triangle.
+
 End the program.
 
 
@@ -145,14 +161,23 @@ To write a Python program that checks whether a given number is a palindrome usi
 ##Algorithm
 
 Get input from the user and assign it to a variable num.
+
 Assign the value of num to a temporary variable temp.
+
 Initialize a variable rev to 0 (used to store the reversed number).
+
 Use a while loop to reverse the digits:
+
 While temp > 0:
+
 rev = (10 * rev) + temp % 10
+
 temp = temp // 10
+
 After the loop, compare rev with num:
+
 If equal, print that the number is a palindrome.
+
 Else, print that it is not a palindrome.
 
 
